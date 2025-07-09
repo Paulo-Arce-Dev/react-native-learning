@@ -24,7 +24,7 @@ I update this repo often with new exercises and projects.
 
 ## Contact
 
-LinkedIn: [www.linkedin.com/in/paulo-arce]
+LinkedIn: [www.linkedin.com/in/paulo-arce](https://www.linkedin.com/in/paulo-arce)
 
 ---
 
