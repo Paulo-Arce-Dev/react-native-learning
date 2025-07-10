@@ -8,7 +8,7 @@ En JavaScript, los **tipos de datos** determinan qué tipo de valores puede alma
 
 Los **primitivos** son inmutables y se almacenan directamente en la variable.
 
-### 1️⃣ String
+### String
 
 Representa cadenas de texto.
 
@@ -18,7 +18,7 @@ let saludo = "Hola";
 let frase = `Hola, mi nombre es ${nombre}`;
 ```
 
-### 2️⃣ Number
+### Number
 
 Representa números enteros y decimales. No hay distinción entre enteros y flotantes.
 
@@ -27,7 +27,7 @@ let edad = 30;
 let precio = 99.99;
 ```
 
-### 3️⃣ Boolean
+### Boolean
 
 Solo puede tener dos valores: true o false. Muy usado en condiciones y lógica.
 
@@ -36,7 +36,7 @@ let esMayor = true;
 let tienePermiso = false;
 ```
 
-### 4️⃣ Undefined
+### Undefined
 
 Indica que una variable ha sido declarada pero no tiene un valor asignado.
 
@@ -45,7 +45,7 @@ let valor;
 console.log(valor); // undefined
 ```
 
-### 5️⃣ Null
+### Null
 
 Representa la ausencia intencional de valor. Debe asignarse manualmente.
 
@@ -53,7 +53,7 @@ Representa la ausencia intencional de valor. Debe asignarse manualmente.
 let usuario = null;
 ```
 
-### 6️⃣ Symbol
+### Symbol
 
 Introducido en ES6. Es un tipo de dato único e inmutable, útil para crear identificadores únicos.
 
@@ -61,7 +61,7 @@ Introducido en ES6. Es un tipo de dato único e inmutable, útil para crear iden
 const id = Symbol("id");
 ```
 
-### 7️⃣ BigInt
+### BigInt
 
 Permite trabajar con enteros muy grandes que superan el límite del tipo Number.
 
@@ -73,7 +73,7 @@ const numeroGrande = 1234567890123456789012345678901234567890n;
 
 Los objetos se usan para almacenar colecciones de datos y entidades más complejas. No se copian por valor, sino por referencia.
 
-### 🟢 Object
+### Object
 
 Colección de pares clave-valor.
 
@@ -84,7 +84,7 @@ let persona = {
 };
 ```
 
-### 🔵 Array
+### Array
 
 Lista ordenada de valores.
 
@@ -93,7 +93,7 @@ let numeros = [1, 2, 3, 4, 5];
 let frutas = ["Manzana", "Banana", "Pera"];
 ```
 
-### 🟡 Function
+### Function
 
 En JavaScript, las funciones también son objetos.
 
@@ -103,13 +103,13 @@ function saludar() {
 }
 ```
 
-### ⚪ Otros objetos
+### Otros objetos
 
 - Date (fechas)
 - RegExp (expresiones regulares)
 - Map, Set, WeakMap, WeakSet, etc.
 
-## 🔄 Tipado dinámico
+## Tipado dinámico
 
 En JavaScript, una variable puede cambiar de tipo sin restricciones.
 
@@ -119,7 +119,7 @@ dato = "Hola"; // String
 dato = true; // Boolean
 ```
 
-## 🔎 Comprobación de tipos
+## Comprobación de tipos
 
 Usar typeof para verificar el tipo de dato.
 
@@ -139,12 +139,12 @@ console.log(typeof undefined); // "undefined"
 
 ### ⚡ Buenas prácticas
 
-✅ Usar los tipos correctos para representar datos de forma clara.
-✅ Inicializar las variables al declararlas siempre que sea posible.
-✅ Ser consciente de las conversiones automáticas (coerción) que puede hacer JavaScript.
-✅ Usar === en lugar de == para comparaciones estrictas y evitar conversiones implícitas.
+- Usar los tipos correctos para representar datos de forma clara.
+- Inicializar las variables al declararlas siempre que sea posible.
+- Ser consciente de las conversiones automáticas (coerción) que puede hacer JavaScript.
+- Usar === en lugar de == para comparaciones estrictas y evitar conversiones implícitas.
 
-### 🧑‍💻 Ejemplo completo
+### Ejemplo completo
 
 ```js
 const nombre = "Carlos";
