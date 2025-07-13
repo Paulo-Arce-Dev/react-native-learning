@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List | Basic</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">To-Do list</h1>
+      <hr />
+    </header>
+    <main class="container-main">
+      <header>
+        <h4 class="sub-title">
+          Agregá tus tareas diarias y organiza en tu vida!
+        </h4>
+        <p>Hacé click en la tarea para marcarla como completada.</p>
+        <p>Hacé click en el botón para eliminarla.</p>
+        <div class="header-container">
+          <input type="text" placeholder="Estudiar inglés" id="taskInput" />
+          <button id="btn-add" class="btn-add">Agregar tarea</button>
+        </div>
+      </header>
+      <hr class="separator-line" />
+      <article class="lsit-container" id="list-container">
+        <ul class="taskList" id="taskList"></ul>
+      </article>
+      <script src="./js/app.js"></script>
+    </main>
+  </body>
+</html>
